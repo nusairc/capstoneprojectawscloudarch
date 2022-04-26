@@ -45,10 +45,7 @@ this project is about a website that provides data to social science researchers
 - Inspect the AMI.  
 
 
-# Step 1: Create a Cloud9 IDE
-
-
-
+# Step 1: Create a Cloud9 IDE 
 
 # Step 2: Get the Project Assets 
 1. Clone the repository:
@@ -60,9 +57,7 @@ this project is about a website that provides data to social science researchers
 ```sh
    unzip Example.zip -d /var/www/html/
    ```
-   
-   # if the example folder give you error or no proper output , try to download the project asset folder from aws portal by given link in official guide. you can use wget linux command.
-   
+      
 # Step 3: Install a LAMP web server on Amazon Linux 2
 
 ### LAMP (Linux, Apache HTTP server, MySQL database, and PHP) stack
@@ -138,7 +133,6 @@ select * from countrydata_final;
 
 Add the following parameters to the Parameter Store and set the correct values:
 1. /example/endpoint 
-
 2. /example/username   
 3. /example/password  
 4. /example/database exampledb
