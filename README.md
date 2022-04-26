@@ -1,5 +1,6 @@
 ## Capstone Project for AWS cloud architect course
-# this video link given below is only for reference , make sure you are doing the project by self .
+# this video link given below is only for reference , make sure you are doing the project by self . 
+# Refer the official Guide to do the Project and follow those instructions. dont be a copycat!!
 
  <a href="https://youtu.be/AwH6drwfuAU">Youtube video</a>
  
@@ -39,7 +40,7 @@
    unzip Example.zip -d /var/www/html/
    ```
    
-   # if the example folder give you error or no proper output , try to download the project asset folder from aws portal by given link in official guide. 
+   # if the example folder give you error or no proper output , try to download the project asset folder from aws portal by given link in official guide. you can use wget linux command.
    
 # Step 3: Install a LAMP web server on Amazon Linux 2
 
@@ -80,9 +81,9 @@ with the following specifications.
 
 # Step 5: Create an Application Load Balancer
 - Create target group   
-- Create an auto scaling group 
+- Create an auto scaling group ( if you face instance failing errors untick the healthchecks of ELB when creating ASG )
 - Lunch Web Instances in the private subnet
-# make sure the Target group is directed to instance (its not shown in above video , it may give you error)
+# make sure the Target group is directed to our instance (its not shown in above video , it may give you error like page wont display.
 # Step 6: Importing the data into the RDS database
  _Importing the data into the RDS database instance from CLoud9 or by accessing the web instance via bastion host
  1. get the SQLDump file:
@@ -122,5 +123,5 @@ Add the following parameters to the Parameter Store and set the correct values:
 4. /example/database exampledb
 
 
-# if any error or help regarding this , feel free to reach me on nusairtech@gmail.com
+# if any error or help regarding this project , feel free to reach me on nusairtech@gmail.com
 
