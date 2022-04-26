@@ -1,6 +1,27 @@
 ## Capstone Project for AWS cloud architect course
-# this video link given below is only for reference , make sure you are doing the project by self . 
+    
+    this project is about a website that provides data to social science researchers to obtain global development statistics. For example, visitors to the site can look up various data, such as the life expectancy for any country in the world over the past 10 years.it stores the data in a MySQL database, and the data is available through a PHP website. its published the site through a commercial hosting company that provides limited support for technical issues and security.As a result of increased traffic, she started receiving complaints that the site is not as responsive as it used to be. hence the AWS migration has to be done.
+
+    Solution requirements
+
+    - Provide secure hosting of the MySQL database
+    - Provide secure access for an administrative user
+    - Provide anonymous access to web users
+    - Run the website on a t2.micro EC2 instance, and provide Secure Shell (SSH) access to administrators
+    - Provide high availability to the website through a load balancer
+    - Store database connection information in the AWS Systems Manager Parameter Store
+    - Provide automatic scaling that uses a launch template
+    
+    By the end of this project, one should be able to apply the architectural design principles that  learned in the course to:
+
+    Deploy a PHP application that runs on an Amazon Elastic Compute Cloud (Amazon EC2) instance
+    Create a database instance that the PHP application can query
+    Create a MySQL database from a structured query language (SQL) dump file
+    Update application parameters in an AWS Systems Manager Parameter Store
+    Secure the application to prevent public access to backend systems
+  
 # Refer the official Guide to do the Project and follow those instructions. dont be a copycat!!
+# this video link given below is only for reference , make sure you are doing the project by self . 
 
  <a href="https://youtu.be/AwH6drwfuAU">Youtube video</a>
  
