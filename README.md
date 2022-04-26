@@ -1,6 +1,6 @@
 ## Capstone Project for AWS cloud architect course
     
-this project is about a website that provides data to social science researchers to obtain global development statistics. For example, visitors to the site can look up various data, such as the life expectancy for any country in the world over the past 10 years.it stores the data in a MySQL database, and the data is available through a PHP website. its published the site through a commercial hosting company that provides limited support for technical issues and security.As a result of increased traffic, she started receiving complaints that the site is not as responsive as it used to be. hence the AWS migration has to be done.
+this project is about a website that provides data to social science researchers to obtain global development statistics. For example, visitors to the site can look up various data, such as the life expectancy for any country in the world over the past 10 years.it stores the data in a MySQL database, and the data is available through a PHP website. its published the site through a commercial hosting company that provides limited support for technical issues and security.As a result of increased traffic, site owner started receiving complaints that the site is not as responsive as it used to be. hence the AWS migration has to be done and its the project goal.
 
     Solution requirements
 
