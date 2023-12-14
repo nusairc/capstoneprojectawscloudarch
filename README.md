@@ -116,7 +116,6 @@ show tables;
 
  ```
  
-  
 4. Import the data into the RDS database.
 ```sh
 mysql -u admin -p exampledb --host <rds-endpoint>  < Countrydatadump.sql       
